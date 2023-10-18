@@ -42,13 +42,12 @@ int main() {
 //     }
 // }
 
-    int element{9};
-    int left = 0;
-    int right = n - 1; // n is the size of the array
-    int mid;
-
-
     // Binary search
+//    int element{9};
+//    int left = 0;
+//    int right = n - 1; // n is the size of the array
+//    int mid;
+//
 //    while (left <= right) {
 //        mid = left + (right - left) / 2; // Calculate the new mid in each iteration
 //
@@ -61,11 +60,10 @@ int main() {
 //            right = mid - 1;
 //        }
 //    }
-
-    if (left > right) {
-        cout << "Element not found";
-    }
 //
+//    if (left > right) {
+//        cout << "Element not found";
+//    }
 
 // frequency array
 //int freq[101] = {0};
@@ -112,8 +110,6 @@ int main() {
 //        }
 //    }
 
-
-
 // output cout
     cout << "Vector final: ";
     for (i = 0; i < n; i++) {
@@ -122,7 +118,3 @@ int main() {
     cout << endl;
     return 0;
 }
-
-#pragma clang diagnostic pop
-
-
